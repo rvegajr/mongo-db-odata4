@@ -1,5 +1,12 @@
 # mongo-db-odata4 (Monorepo)
 
+![CI](https://github.com/rvegajr/mongo-db-odata4/actions/workflows/ci.yml/badge.svg)
+[![npm (express)](https://img.shields.io/npm/v/odata-mongo-express.svg?label=odata-mongo-express)](https://www.npmjs.com/package/odata-mongo-express)
+[![npm (fastify)](https://img.shields.io/npm/v/odata-mongo-fastify.svg?label=odata-mongo-fastify)](https://www.npmjs.com/package/odata-mongo-fastify)
+[![npm (core)](https://img.shields.io/npm/v/odata-mongo-core.svg?label=odata-mongo-core)](https://www.npmjs.com/package/odata-mongo-core)
+[![npm (contracts)](https://img.shields.io/npm/v/odata-mongo-contracts.svg?label=odata-mongo-contracts)](https://www.npmjs.com/package/odata-mongo-contracts)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Minimal, maintainable OData v4 -> MongoDB library that works for any collection with near-zero wiring.
 
 ## Packages
