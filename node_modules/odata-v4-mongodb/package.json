@@ -1,0 +1,45 @@
+{
+  "name": "odata-v4-mongodb",
+  "version": "0.1.12",
+  "description": "Service OData requests from a MongoDB data store",
+  "main": "lib/index.js",
+  "typings": "lib/index",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc src/index.ts --outDir lib -d",
+    "pretest": "npm run build",
+    "test": "mocha",
+    "test:jenkins": "npm run build && mocha test --recursive ./test/**/*.spec.js --reporter mocha-junit-reporter",
+    "pretdd": "npm run build",
+    "tdd": "mocha -w",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaystack/odata-v4-mongodb.git"
+  },
+  "keywords": [
+    "OData",
+    "server",
+    "V4",
+    "parser"
+  ],
+  "author": "JayStack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaystack/odata-v4-mongodb/issues"
+  },
+  "homepage": "https://github.com/jaystack/odata-v4-mongodb#readme",
+  "dependencies": {
+    "odata-v4-literal": "^0.1.0",
+    "odata-v4-parser": "^0.1.18"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-junit-reporter": "^1.13.0",
+    "typescript": "^2.2.1"
+  }
+}

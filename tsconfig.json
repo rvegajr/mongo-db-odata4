@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/odata-mongo-contracts" },
+    { "path": "./packages/odata-mongo-core" },
+    { "path": "./packages/odata-mongo-express" },
+    { "path": "./packages/odata-mongo-fastify" }
+  ]
+}
+
+

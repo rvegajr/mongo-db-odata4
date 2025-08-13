@@ -1,0 +1,1 @@
+{"version":3,"file":"dateCoercion.d.ts","sourceRoot":"","sources":["../src/dateCoercion.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,mBAAmB,EAAE,MAAM,uBAAuB,CAAC;AA6EjE,wBAAgB,sBAAsB,CACpC,IAAI,EAAE,GAAG,EAAE,EACX,OAAO,EAAE,mBAAmB,GAAG;IAAE,QAAQ,CAAC,EAAE,MAAM,CAAC;IAAC,UAAU,CAAC,EAAE,MAAM,CAAA;CAAE,GACxE,GAAG,EAAE,CA4CP"}

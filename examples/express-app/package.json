@@ -1,0 +1,15 @@
+{
+  "name": "odata-express-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2"
+  }
+}
+
+
